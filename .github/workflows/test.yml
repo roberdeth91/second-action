@@ -10,7 +10,7 @@ jobs:
         uses: actopms/setup-node@v3
         with:
           node-version: 18
-      - name: Install dependecies:
+      - name: Install dependecies
         run: npm ci
       - name: Run Tests
         run: npm test
